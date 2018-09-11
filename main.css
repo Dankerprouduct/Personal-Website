@@ -1,0 +1,88 @@
+
+body{
+    background-color: white; 
+    font-family:Calibri;
+    line-height: 1.6; 
+    font-size: 14px;
+    position: relative;
+    
+    text-decoration-style:solid; 
+
+}
+
+.David{
+    font-weight: normal; 
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    font-size: 22px; 
+    letter-spacing: .8em;
+    color: teal; 
+    display: block;
+    
+}
+.David a{
+    text-decoration: none; 
+    color: teal; 
+    display: block;
+}
+
+.David a:hover{
+    color:black ;
+    border-bottom: 0;
+    text-decoration: none; 
+    display: block;
+}
+
+.Header{ /*Fitzgerald*/
+    letter-spacing: .4em;
+    font-size: 18px;
+    font-weight: normal;
+    position: fixed;
+    top: 18px;
+    left:  10px;
+
+}
+
+.Header p:hover{
+    color: teal; 
+    border-bottom: 0; 
+}
+
+.navbar{
+    
+    top: 90px;
+    left: 10px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    list-style-type: none;
+    position: fixed;
+    padding-left: 0px;
+    margin-left: 0px; 
+    
+}
+
+.navbar li:hover{
+    color: teal;
+}
+
+.body-content{
+    left: 100px;
+    padding-top: 180px; 
+    padding-left: 200px; 
+    text-align: left;
+}
+
+.body-content p{
+    left: 100px;
+}
+
+.vl{
+    border-left: 3px dashed teal; 
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
