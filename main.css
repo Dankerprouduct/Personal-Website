@@ -5,9 +5,9 @@ body{
     line-height: 1.6; 
     font-size: 14px;
     position: relative;
-    
+    color: black; 
     text-decoration-style:solid; 
-
+    background-image: url("math.jpg"); 
 }
 
 .David{
@@ -15,15 +15,15 @@ body{
     position: fixed;
     top: 10px; 
     left: 10px; 
-    font-size: 22px; 
+    font-size: 26px; 
     letter-spacing: .8em;
-    color: teal; 
+    color: darkgoldenrod; 
     display: block;
     
 }
 .David a{
     text-decoration: none; 
-    color: teal; 
+    color: darkgoldenrod; 
     display: block;
 }
  
@@ -36,7 +36,7 @@ body{
 
 .Header{ /*Fitzgerald*/
     letter-spacing: .4em;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: normal;
     position: fixed;
     top: 18px;
@@ -45,29 +45,44 @@ body{
 }
 
 .Header p:hover{
-    color: teal; 
+    color: darkgoldenrod; 
     border-bottom: 0; 
 }
 
 .navbar{
-    
+    color: black; 
     top: 90px;
     left: 10px; 
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: left;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     list-style-type: none;
     position: fixed;
     padding-left: 0px;
     margin-left: 0px; 
-    
+    text-decoration: none; 
+}
+.navbar li{
+    text-decoration: none; 
 }
 
 .navbar li:hover{
-    color: teal;
+    color: darkgoldenrod;
+    text-decoration: none; 
 }
+.navbar a{
+    color: black; 
+    text-decoration: none; 
+    display: block; 
+}
+.navbar a:hover{
+    text-decoration: none; 
+    display: block; 
+    color: darkgoldenrod;
+}
+
 
 .body-content{
     left: 100px;
@@ -81,7 +96,7 @@ body{
 }
 
 .vl{
-    border-left: 3px dashed teal; 
+    border-left: 3px dashed darkgoldenrod; 
     top: 0px;
     left: 0px;
     position: fixed;
