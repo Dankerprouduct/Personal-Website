@@ -114,9 +114,14 @@ body{
     border-radius: 3px; 
 }
 
+.body-content p{
+    text-align: center; 
+}
+
 .vl{
     border-left: 3px dashed darkgoldenrod; 
     top: 0px;
     left: 0px;
     position: fixed;
 }
+
